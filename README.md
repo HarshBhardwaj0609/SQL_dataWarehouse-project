@@ -12,8 +12,6 @@ in data engineering and analytics.
 
 The data architecture for this project follows the **Medallion Architecture** with three key layers — **Bronze**, **Silver**, and **Gold**.
 
-![Data Architecture]
-
 ### 🥉 Bronze Layer
 - Stores **raw data** as-is from the source systems.  
 - Data is ingested from **CSV files** into the SQL Server database.  
@@ -26,3 +24,65 @@ The data architecture for this project follows the **Medallion Architecture** wi
 ### 🥇 Gold Layer
 - Contains **business-ready data** modeled into a **Star Schema** or **Flat Table**.  
 - Optimized for **reporting, analytics, and visualization** in BI tools.
+-----------------------
+## 📖 Project Overview
+
+This project demonstrates a complete **end-to-end data warehousing and analytics solution**, showcasing modern best practices used in enterprise data engineering.
+
+---
+
+### 🧩 Key Components
+
+#### 🏗️ Data Architecture  
+Designing a **Modern Data Warehouse** using the **Medallion Architecture** — consisting of **Bronze**, **Silver**, and **Gold** layers.  
+
+#### ⚙️ ETL Pipelines  
+Implementing **Extract, Transform, Load (ETL)** workflows to ingest raw data from source systems into the warehouse efficiently.  
+
+#### 🧮 Data Modeling  
+Developing optimized **fact** and **dimension tables** to support analytical queries and reporting.  
+
+#### 📊 Analytics & Reporting  
+Creating **SQL-based reports** and interactive **dashboards** that deliver actionable business insights.
+
+---
+
+## 🎯 Ideal For
+
+This repository is an excellent resource for professionals and students aiming to build or demonstrate expertise in:
+
+- 🧠 **SQL Development**  
+- 🏗️ **Data Architecture**  
+- ⚙️ **Data Engineering**  
+- 🚀 **ETL Pipeline Development**  
+- 🧮 **Data Modeling**  
+- 📈 **Data Analytics**
+
+---
+# 🚀 Data Warehouse Project (Data Engineering)
+
+## Objective
+Develop a modern data warehouse using **SQL Server** to consolidate sales data, enabling **analytical reporting** and **informed decision-making**.
+
+## Project Specifications
+
+### Data Sources
+- Import data from **two source systems**:
+  - **ERP**
+  - **CRM**  
+  Both provided as **CSV files**.
+
+### Data Quality
+- Cleanse and resolve **data quality issues** before analysis.
+
+### Integration
+- Combine both sources into a **single, user-friendly data model** optimized for **analytical queries**.
+
+### Scope
+- Focus on the **latest dataset only**.
+- **Historization of data** is not required.
+
+### Documentation
+- Provide **clear documentation** of the data model to support:
+  - Business stakeholders
+  - Analytics teams
