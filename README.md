@@ -46,19 +46,6 @@ Developing optimized **fact** and **dimension tables** to support analytical que
 Creating **SQL-based reports** and interactive **dashboards** that deliver actionable business insights.
 
 ---
-
-## 🎯 Ideal For
-
-This repository is an excellent resource for professionals and students aiming to build or demonstrate expertise in:
-
-- 🧠 **SQL Development**  
-- 🏗️ **Data Architecture**  
-- ⚙️ **Data Engineering**  
-- 🚀 **ETL Pipeline Development**  
-- 🧮 **Data Modeling**  
-- 📈 **Data Analytics**
-
----
 # 🚀 Building the Data Warehouse (Data Engineering)
 
 ## Objective
